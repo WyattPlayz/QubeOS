@@ -2,13 +2,14 @@
 <html>
   <head>
     <script defer>
+      document.getElementsByClassName('hide').style.display = "none";
       function change(to, from) {
         document.getElementById(to).style.display = "block";
         document.getElementById(from).style.display = "none";
       }
     </script>
     <style>
-      body{text-align:center;background-color:black;color:white;} .hide{display:none;}
+      body{text-align:center;background-color:black;color:white;}
     </style>
   </head>
   <body>
