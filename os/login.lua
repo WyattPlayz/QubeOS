@@ -9,8 +9,8 @@ local function draw(x, y, color) term.setBackgroundColor(color) term.setCursorPo
 local function getWidth() local w, h = term.getSize() return w end
 
 local iop = jsonreader.loadJson("/os/system/iop.json")
-for _, pw in pairs(iop) do
-  local currentPassword = pw
+for _, k, v in pairs(iop) do
+  local currentPassword = v
 end
 
 local function setup()
