@@ -1,2 +1,1 @@
 # Qube OS
-hello
