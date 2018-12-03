@@ -1,5 +1,8 @@
 local updater = {}
 
+local github = "https://raw.githubusercontent.com/WyattPlayz/QubeOS/master/"
+local updatelocations = github .. "updatelocations.txt"
+
 local function spinner()
   local function writeAt(text, x, y, color) term.setTextColor(color) term.setCursorPos(x, y) term.write(text) end
   local function draw(x, y, color) term.setBackgroundColor(color) term.setCursorPos(x, y) term.write(" ") end
@@ -26,6 +29,10 @@ function updater.update()
   term.setBackgroundColor(colors.lightBlue)
   term.clear()
   spinner()
+    for line in io.lines(updatelocations) do
+      local url = github .. line
+      for line in io.lines
+    end
 end
 
 return updater
