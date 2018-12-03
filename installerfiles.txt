@@ -4,3 +4,4 @@ os/encoder.lua
 os/jsonreader.lua
 os/login.lua
 startup.lua
+os/iop.json
