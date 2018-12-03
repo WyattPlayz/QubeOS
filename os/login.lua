@@ -20,7 +20,7 @@ local function setup()
 end
 
 local function pass()
-  os.run({}, "os/programs/desktop.lua")
+  os.run({}, "/programs/desktop.lua")
 end
 
 local function deny()
