@@ -2,3 +2,4 @@ os/updatechecker.lua
 os/encoder.lua
 os/login.lua
 os/jsonreader.lua
+startup.lua
