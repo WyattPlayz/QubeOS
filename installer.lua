@@ -12,7 +12,7 @@
     writeAt("Error Code: 0", 1, 1, colors.white)
     writeAt("Error Message: updater.lua stopped bootup on bios level", 1, 2, colors.white)
     writeAt("message: Installing. +")
-    os.sleep(.25
+    os.sleep(.25)
     term.clear()
     writeAt("Error Code: 0", 1, 1, colors.white)
     writeAt("Error Message: updater.lua stopped bootup on bios level", 1, 2, colors.white)
