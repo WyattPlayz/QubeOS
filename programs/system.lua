@@ -27,4 +27,5 @@ while i-1 < width() do
 end
 
 writeAt('Info', 2, 0)
-writeAt('OS Version: 1.0');
+writeAt('OS Version: 1.0', 1, 4);
+writeAt('MC Version: ' os.version(), 1, 5);
